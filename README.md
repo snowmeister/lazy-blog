@@ -30,7 +30,7 @@ First, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/snowmeister/lazy-blog
-cd your-repo-name
+cd lazy-blog
 ```
 
 Next, install the single development dependency (`gray-matter`) required for the build script:
