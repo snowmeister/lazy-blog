@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Awesome Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Your Awesome Blog</h1>
+            <button id="menu-toggle" class="menu-toggle-button" aria-label="Open navigation menu" aria-controls="posts-list">&#9776;</button>
+        </header>
+
+        <main>
+            <nav id="posts-list" aria-hidden="true">
+                <button id="menu-close" class="menu-close-button" aria-label="Close navigation menu">&times;</button>
+                <div id="tag-filter-container">
+                    <h4>Filter by Tag</h4>
+                    <div id="tag-filter">
+                        <!-- Tag filter buttons will be injected here -->
+                    </div>
+                </div>
+                <ul id="posts-list-ul">
+                    <!-- Post links will be injected here by JavaScript -->
+                </ul>
+                <div id="pagination-container">
+                    <!-- Pagination controls will be injected here -->
+                </div>
+            </nav>
+            <article id="post-content">
+                <!-- Post content will be injected here -->
+                <h2>Welcome!</h2>
+                <p>Select a post from the list to read it.</p>
+            </article>
+        </main>
+
+        <footer>
+            <p>Powered by pure JavaScript and Markdown.</p>
+        </footer>
+    </div>
+
+    <!-- Markdown to HTML converter -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Our custom logic -->
+    <script src="js/main.js"></script>
+</body>
+</html>

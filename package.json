@@ -1,0 +1,28 @@
+{
+  "name": "lazy-blog",
+  "version": "0.0.1",
+  "description": "Thrown together absolute minimal blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowmeister/lazy-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "barebones",
+    "minimal"
+  ],
+  "author": "Mark Kennard <mark.kennard@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "@faker-js/faker": "^8.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/snowmeister/lazy-blog/issues"
+  },
+  "homepage": "https://github.com/snowmeister/lazy-blog#readme"
+}
